@@ -11,3 +11,7 @@ Replace ip:port in components/Altimeter.vue and components/Heading.vue
 ```
 npm install && npm run serve
 ```
+
+## Demo video
+
+[Demo video](https://www.youtube.com/watch?v=xyMuzwiCrnE)
