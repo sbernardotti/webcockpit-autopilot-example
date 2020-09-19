@@ -1,28 +1,26 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+  <div class="container">
+    <h1 class="title">WebCockpit API example</h1>
+    <Altimeter />
+    <Heading />
   </div>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+import Altimeter from "./components/Altimeter.vue";
+import Heading from "./components/Heading.vue";
 
 export default {
   name: "App",
   components: {
-    HelloWorld
+    Altimeter,
+    Heading
   }
 };
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+<style lang="css" scoped>
+.container {
   margin-top: 60px;
 }
 </style>
